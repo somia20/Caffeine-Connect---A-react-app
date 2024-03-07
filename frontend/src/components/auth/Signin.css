@@ -1,0 +1,87 @@
+.signin-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  left: 480px;
+  bottom: -200px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin-right: 50px; /* Add right margin to move the form to the right */
+}
+
+.signin-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #4F200D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* login */
+.login-button-container > button{
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #4F200D;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;  
+}
+
+button:hover {
+  background-color: #361305;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #4F200D;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}

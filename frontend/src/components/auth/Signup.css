@@ -1,0 +1,91 @@
+.signup-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  left: 800px;
+  bottom: -200px
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin-right: 50px; /* Add right margin to move the form to the right */
+}
+
+
+.signup-form > h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.signup-form > .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.signup-form > .form-group > label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.signup-form > .form-group > input[type="text"],
+.signup-form > .form-group > input[type="email"],
+.signup-form > .form-group > input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+/* .signup-form > .form-group > input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #4F200D;
+  border: 1px solid #4F200D;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 0.5rem;
+} */
+
+/* .signup-form > .form-group > input[type="submit"]:hover {
+  background: #4F200D;
+} */
+
+.signup-form > .error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Signup */
+.signup-container > button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #4F200D;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;  
+}
+
+button:hover {
+  background-color: #361305;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #4F200D;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
